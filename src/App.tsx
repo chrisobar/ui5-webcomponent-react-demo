@@ -52,7 +52,7 @@ export default function App() {
         return;
       } else {
         console.log("not ofund");
-        setNotesData(notesData);
+        setNotesData(NotesData);
         setBusy(false);
         setNotesToast(true);
       }
