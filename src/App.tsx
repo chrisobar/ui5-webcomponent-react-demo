@@ -43,7 +43,7 @@ export default function App() {
     console.log(e.target?.value);
     const searchValue = e.target.value;
     setTimeout(() => {
-      const filteredNotes = NotesData.filter((notes) =>
+      const filteredNotes = notesData.filter((notes) =>
         notes.title.toLowerCase().includes(searchValue.toLowerCase())
       );
       if (filteredNotes.length > 0) {
@@ -52,7 +52,7 @@ export default function App() {
         return;
       } else {
         console.log("not ofund");
-        setNotesData(NotesData);
+        setNotesData(notesData);
         setBusy(false);
         setNotesToast(true);
       }

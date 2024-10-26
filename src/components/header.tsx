@@ -22,6 +22,10 @@ const themesData = [
   { name: "sap_horizon_dark", description: "SAP Horizon Dark" },
   { name: "sap_fiori_3", description: "Quartz Light" },
   { name: "sap_fiori_3_dark", description: "Quartz Dark" },
+  { name: "sap_horizon_hcw", description: "SAP Horizon Contrast" },
+  { name: "sap_horizon_hcb", description: "SAP Horizon Dark Contrast" },
+  { name: "sap_fiori_3_hcw", description: "Quartz Light Contrast" },
+  { name: "sap_fiori_3_hcb", description: "Quartz Dark Contrast " },
 ];
 
 interface IHeaderProps {
