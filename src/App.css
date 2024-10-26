@@ -1,0 +1,52 @@
+.appContainer {
+  display: grid;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notesMenu {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px;
+  padding-right: 25px;
+  position: relative;
+}
+
+.notesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.notesCard {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.notesCard:hover {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.addNoteDialog {
+  width: 50%;
+  height: 90%;
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+.notesCard-delete {
+  animation: wiggle 0.5s ease-in-out infinite;
+}

@@ -1,0 +1,7 @@
+body {
+  background: var(--sapBackgroundColor);
+  font-family: var(--sapFontFamily);
+}
+
+.shellBar {
+}
